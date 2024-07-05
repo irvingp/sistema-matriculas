@@ -9,10 +9,7 @@ import componenteEntidad.Apoderado;
 import java.sql.*;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class ApoderadoDAO {
     private Connection cnn=null;
     private ResultSet rs = null;

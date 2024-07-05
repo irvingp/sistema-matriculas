@@ -116,7 +116,6 @@
             <Component class="javax.swing.JEditorPane" name="jEditorPane1">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
-                <Property name="text" type="java.lang.String" value="Desarrollador por &#xa;Jhordy Alexi Del Aguila Quispe, &#xa;primera version del sistema de Matricula.&#xa;&#xa;Cualquier consulta con el proyecto:&#xa;Email: jhordydelaguila@hotmail.com&#xa;Numero: 956182522.&#xa;&#xa;Se utilizo el Patron DAO y tambien&#xa;se desarrollo con la Base de datos&#xa;MySQL. "/>
               </Properties>
             </Component>
           </SubComponents>

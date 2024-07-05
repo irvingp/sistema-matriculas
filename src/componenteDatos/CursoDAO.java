@@ -13,10 +13,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class CursoDAO {
     private Connection cnn = null;
     private ResultSet rs=null;

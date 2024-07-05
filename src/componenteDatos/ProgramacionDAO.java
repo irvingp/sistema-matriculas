@@ -14,10 +14,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class ProgramacionDAO {
     private Connection cnn = null;
     private ResultSet rs=null;

@@ -11,10 +11,7 @@ import java.sql.Date;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class HorarioCN {
     
     private static HorarioCN instancia;

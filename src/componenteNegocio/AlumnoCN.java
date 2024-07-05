@@ -10,10 +10,7 @@ import componenteEntidad.Alumno;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class AlumnoCN {
     
     private static AlumnoCN instancia;

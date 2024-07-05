@@ -13,10 +13,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class dialogReporte extends javax.swing.JDialog {
 
     /**

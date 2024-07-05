@@ -10,10 +10,7 @@ import componenteEntidad.Apoderado;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class ApoderadoCN {
     
     private static ApoderadoCN instancia;

@@ -9,10 +9,6 @@ import componenteEntidad.Profesor;
 import java.sql.*;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
 public class ProfesorDAO {
     private Connection cnn=null;
     private ResultSet rs = null;

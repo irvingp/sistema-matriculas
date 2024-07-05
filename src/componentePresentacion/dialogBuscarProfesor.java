@@ -14,10 +14,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class dialogBuscarProfesor extends javax.swing.JDialog {
 
     /**

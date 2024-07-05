@@ -9,10 +9,7 @@ import componenteEntidad.Aula;
 import java.sql.*;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class AulaDAO {
     private Connection cnn=null;
     private ResultSet rs = null;

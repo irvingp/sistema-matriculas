@@ -9,10 +9,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Vector;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class ListaDetalleMatricula {
     private Vector<DetalleMatricula> L;
 

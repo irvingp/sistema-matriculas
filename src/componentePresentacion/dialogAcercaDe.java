@@ -32,7 +32,6 @@ public class dialogAcercaDe extends javax.swing.JDialog {
         jLabel2.setText("Acerca De");
 
         jEditorPane1.setEditable(false);
-        jEditorPane1.setText("Desarrollador por \nJhordy Alexi Del Aguila Quispe, \nprimera version del sistema de Matricula.\n\nCualquier consulta con el proyecto:\nEmail: jhordydelaguila@hotmail.com\nNumero: 956182522.\n\nSe utilizo el Patron DAO y tambien\nse desarrollo con la Base de datos\nMySQL. ");
         jScrollPane1.setViewportView(jEditorPane1);
 
         jButton1.setText("Salir");

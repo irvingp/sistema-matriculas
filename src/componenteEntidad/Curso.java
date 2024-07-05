@@ -7,10 +7,7 @@ package componenteEntidad;
 
 import java.util.Objects;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class Curso {
     
     private String idCurso;

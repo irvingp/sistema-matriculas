@@ -8,10 +8,7 @@ package componentePresentacion;
 
 import componenteReporte.ReporteAlumnos;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class dialogReporte1 extends javax.swing.JDialog {
 
     /**

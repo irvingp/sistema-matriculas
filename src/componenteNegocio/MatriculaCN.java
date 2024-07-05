@@ -10,10 +10,7 @@ import componenteEntidad.Matricula;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class MatriculaCN {
     
     private static MatriculaCN instancia;

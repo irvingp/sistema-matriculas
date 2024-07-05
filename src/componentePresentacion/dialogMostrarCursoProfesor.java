@@ -13,10 +13,7 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class dialogMostrarCursoProfesor extends javax.swing.JDialog {
 
     /**

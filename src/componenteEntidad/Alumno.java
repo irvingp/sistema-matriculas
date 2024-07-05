@@ -8,15 +8,13 @@ package componenteEntidad;
 import java.util.Date;
 import java.util.Objects;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class Alumno extends Persona{
     private String idAlumno;
     private Apoderado apoderado;
     private String sexo;
     private Date fechaNacimiento;
+    
 
     public Alumno(){
         

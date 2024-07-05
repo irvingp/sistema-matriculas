@@ -7,10 +7,6 @@ package componenteEntidad;
 
 import java.util.Objects;
 
-/**
- *
- * @author JhordyAlexi
- */
 public class DetalleMatricula {
     
 

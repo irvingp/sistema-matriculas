@@ -10,10 +10,7 @@ import componenteEntidad.Horario;
 import java.sql.*;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class HorarioDAO {
     private Connection cnn=null;
     private ResultSet rs = null;

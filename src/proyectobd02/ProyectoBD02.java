@@ -7,10 +7,7 @@ package proyectobd02;
 
 import componentePresentacion.FrmPrincipal;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class ProyectoBD02 {
 
     /**

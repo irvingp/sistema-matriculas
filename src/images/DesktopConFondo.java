@@ -10,10 +10,7 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JDesktopPane;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class DesktopConFondo extends JDesktopPane {
     
     private Image imagen; public DesktopConFondo() {

@@ -16,10 +16,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author JhordyAlexi
- */
 public class dialogAlumnoo extends javax.swing.JDialog {
 
     /**

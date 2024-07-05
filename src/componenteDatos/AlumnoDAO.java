@@ -14,10 +14,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class AlumnoDAO {
     private Connection cnn = null;
     private ResultSet rs=null;
@@ -55,7 +52,7 @@ public class AlumnoDAO {
             ps.setString(7, alumno.getDireccion());
             ps.setDate(8, Convertir.convertJavaDateTOSQLDate(alumno.getFechaNacimiento()));
             ps.executeUpdate();
-            
+          
         }catch (SQLException e) {
             System.out.println("Error insertar alumno: " + e.getMessage());
             e.printStackTrace();

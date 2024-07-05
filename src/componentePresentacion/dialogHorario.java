@@ -15,10 +15,7 @@ import javax.swing.table.DefaultTableModel;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class dialogHorario extends javax.swing.JDialog {
 
     boolean reg;

@@ -12,10 +12,7 @@ import java.sql.SQLException;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class dialogAlumno extends javax.swing.JDialog {
 
     /**

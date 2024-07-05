@@ -10,10 +10,7 @@ import componenteEntidad.Profesor;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class ProfesorCN {
     
     private static ProfesorCN instancia;

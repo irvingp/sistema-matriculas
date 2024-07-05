@@ -8,10 +8,7 @@ package componenteDatos;
 import java.text.Format;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-/**
- *
- * @author JhordyAlexi
- */
+
 public class Convertir {
     public static java.sql.Date convertJavaDateTOSQLDate(java.util.Date date){
         return new java.sql.Date(date.getTime());

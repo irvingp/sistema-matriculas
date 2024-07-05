@@ -13,10 +13,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 import javax.swing.Timer;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class FrmPrincipal extends javax.swing.JFrame {
 
     /**
@@ -37,7 +34,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         Calendar cal= Calendar.getInstance();
         String fecha=cal.get(Calendar.DATE)+"/"+cal.get(Calendar.MONTH)+"/"+cal.get(cal.YEAR);
-        this.lblFecha.setText(fecha); 
+        //this.lblFecha.setText(fecha); 
         
     }
     public class relog implements ActionListener{
@@ -74,8 +71,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jSeparator1 = new javax.swing.JSeparator();
         jPanel1 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
-        lblFecha = new javax.swing.JLabel();
-        Label = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem15 = new javax.swing.JMenuItem();
@@ -94,9 +89,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMenuItem11 = new javax.swing.JMenuItem();
         jMenuItem13 = new javax.swing.JMenuItem();
         jMenuItem14 = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
-        jMenuItem2 = new javax.swing.JMenuItem();
-        jMenuItem10 = new javax.swing.JMenuItem();
         jMenu7 = new javax.swing.JMenu();
         menuAcercaDe = new javax.swing.JMenuItem();
         jSeparator2 = new javax.swing.JPopupMenu.Separator();
@@ -115,26 +107,32 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Comic Sans MS", 0, 36)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(":");
+        jLabel4.setEnabled(false);
 
         jLabel5.setFont(new java.awt.Font("Comic Sans MS", 0, 36)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(":");
+        jLabel5.setEnabled(false);
 
         lblSegundos.setFont(new java.awt.Font("Comic Sans MS", 0, 36)); // NOI18N
         lblSegundos.setForeground(new java.awt.Color(0, 204, 0));
         lblSegundos.setText("00");
+        lblSegundos.setEnabled(false);
 
         lblHora.setFont(new java.awt.Font("Comic Sans MS", 0, 36)); // NOI18N
         lblHora.setForeground(new java.awt.Color(0, 204, 0));
         lblHora.setText("00");
+        lblHora.setEnabled(false);
 
         jLabel3.setFont(new java.awt.Font("Comic Sans MS", 0, 33)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Hora:");
+        jLabel3.setEnabled(false);
 
         lblMinutos.setFont(new java.awt.Font("Comic Sans MS", 0, 36)); // NOI18N
         lblMinutos.setForeground(new java.awt.Color(0, 204, 0));
         lblMinutos.setText("00");
+        lblMinutos.setEnabled(false);
 
         dpnEscritorio.setLayer(jLabel4, javax.swing.JLayeredPane.DEFAULT_LAYER);
         dpnEscritorio.setLayer(jLabel5, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -176,24 +174,14 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     .addComponent(jLabel5)
                     .addComponent(lblSegundos)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(460, Short.MAX_VALUE))
+                .addContainerGap(448, Short.MAX_VALUE))
         );
 
-        jPanel1.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel7.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("Welcome to party");
-
-        lblFecha.setBackground(new java.awt.Color(255, 255, 255));
-        lblFecha.setFont(new java.awt.Font("Comic Sans MS", 0, 20)); // NOI18N
-        lblFecha.setForeground(new java.awt.Color(255, 255, 255));
-        lblFecha.setText("00/00/00");
-
-        Label.setFont(new java.awt.Font("Comic Sans MS", 0, 20)); // NOI18N
-        Label.setForeground(new java.awt.Color(255, 255, 255));
-        Label.setText("Fecha:");
+        jLabel7.setText("Sistema Matricula");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -202,16 +190,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(124, 124, 124)
                 .addComponent(jLabel7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 451, Short.MAX_VALUE)
-                .addComponent(Label)
-                .addGap(18, 18, 18)
-                .addComponent(lblFecha)
-                .addGap(32, 32, 32))
+                .addContainerGap(651, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Label, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(lblFecha, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
@@ -336,27 +318,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu5);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pdf.png"))); // NOI18N
-        jMenu2.setText("Reporte          ");
-
-        jMenuItem2.setText("Reporte Matricula");
-        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem2ActionPerformed(evt);
-            }
-        });
-        jMenu2.add(jMenuItem2);
-
-        jMenuItem10.setText("Reporte Alumnos Registrados");
-        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem10ActionPerformed(evt);
-            }
-        });
-        jMenu2.add(jMenuItem10);
-
-        jMenuBar1.add(jMenu2);
-
         jMenu7.setText("Ayuda");
 
         menuAcercaDe.setText("Acerca de");
@@ -385,13 +346,17 @@ public class FrmPrincipal extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(dpnEscritorio)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(dpnEscritorio)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(dpnEscritorio)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -400,17 +365,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         // TODO add your handling code here:
-        timer = new Timer(1000, new relog());
-        timer.start();
-        ((DesktopConFondo) dpnEscritorio).setImagen("/images/escuela.jpg");
+        //timer = new Timer(1000, new relog());
+        //timer.start();
+        //((DesktopConFondo) dpnEscritorio).setImagen("/images/escuela.jpg");
     }//GEN-LAST:event_formWindowOpened
-
-    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        // TODO add your handling code here:
-        dialogReporte reporte = new dialogReporte();
-        reporte.setVisible(true);
-        
-    }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem13ActionPerformed
         // TODO add your handling code here:
@@ -484,12 +442,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         buscarAlumnoAula.setVisible(true);
     }//GEN-LAST:event_jMenuItem14ActionPerformed
 
-    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
-        // TODO add your handling code here:
-        dialogReporte1 reporte1 = new dialogReporte1();
-        reporte1.setVisible(true);
-    }//GEN-LAST:event_jMenuItem10ActionPerformed
-
     private void menuSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuSalirActionPerformed
         System.exit(0);
     }//GEN-LAST:event_menuSalirActionPerformed
@@ -534,14 +486,12 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Label;
     private javax.swing.JDesktopPane dpnEscritorio;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
@@ -549,12 +499,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu7;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem11;
     private javax.swing.JMenuItem jMenuItem13;
     private javax.swing.JMenuItem jMenuItem14;
     private javax.swing.JMenuItem jMenuItem15;
-    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
@@ -566,7 +514,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JPopupMenu.Separator jSeparator2;
     private javax.swing.JSplitPane jSplitPane1;
-    private javax.swing.JLabel lblFecha;
     private javax.swing.JLabel lblHora;
     private javax.swing.JLabel lblMinutos;
     private javax.swing.JLabel lblSegundos;

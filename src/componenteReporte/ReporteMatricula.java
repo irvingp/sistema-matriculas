@@ -33,7 +33,7 @@ public class ReporteMatricula {
 //            }
             JasperReport masterReport = null;
             try {
-                masterReport = (JasperReport) JRLoader.loadObject("src\\componenteReporte\\reporteMatricula.jasper");
+                masterReport = (JasperReport) JRLoader.loadObject(".\\src\\componenteReporte\\reporteMatricula.jasper");
 
             } catch (JRException e) {
                 System.out.println("error cargando el reporte maestro:" + e.getMessage());

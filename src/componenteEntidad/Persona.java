@@ -5,10 +5,6 @@
  */
 package componenteEntidad;
 
-/**
- *
- * @author JhordyAlexi
- */
 public class Persona {
     
     private String nombres;

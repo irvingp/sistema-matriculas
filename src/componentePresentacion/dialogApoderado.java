@@ -13,10 +13,7 @@ import javax.swing.JOptionPane;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class dialogApoderado extends javax.swing.JDialog {
 
     boolean reg;

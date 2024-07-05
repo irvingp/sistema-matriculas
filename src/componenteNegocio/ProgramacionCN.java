@@ -10,10 +10,7 @@ import componenteEntidad.Programacion;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class ProgramacionCN {
     
     private static ProgramacionCN instancia;

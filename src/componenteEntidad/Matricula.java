@@ -8,10 +8,7 @@ package componenteEntidad;
 import java.util.Date;
 import java.util.Objects;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class Matricula {
     
     private String idMatricula;

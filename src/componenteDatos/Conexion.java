@@ -7,10 +7,7 @@ package componenteDatos;
 
 import java.sql.*;
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class Conexion {
     private static Conexion instancia;
     
@@ -35,7 +32,7 @@ public class Conexion {
         try{
             String url="jdbc:mysql://localhost:3306/colegio";
             String user="root";
-            String password="";
+            String password="admin";
             cn = DriverManager.getConnection(url,user,password);
         }catch(SQLException e){
             System.out.println("Error no se puede establecer la conexion"+ e.getMessage());

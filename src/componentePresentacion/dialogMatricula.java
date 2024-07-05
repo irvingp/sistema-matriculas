@@ -22,10 +22,7 @@ import javax.swing.table.DefaultTableModel;
 
 
 
-/**
- *
- * @author JhordyAlexi
- */
+
 public class dialogMatricula extends javax.swing.JDialog {
 
     /**
