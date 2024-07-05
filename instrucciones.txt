@@ -1,0 +1,6 @@
+1- instalar MySQL
+2- Instalar WorkBench
+3- create database colegio;
+4- use colegio;
+5- correr todo el escript colegio.sql
+6- Verificar en la clase conexión que está dentro del paquete componenteDatos que el usuario y contraseña coincida con el de tu MySQL
